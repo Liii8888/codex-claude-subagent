@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cancel Claude Agent"
+  short_description: "Stop a selected live or headless Claude job safely"
+  default_prompt: "Use $cancel to stop the selected Claude agent job."

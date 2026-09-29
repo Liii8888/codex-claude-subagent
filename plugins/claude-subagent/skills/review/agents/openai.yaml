@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Review"
+  short_description: "Run a focused read-only Claude review of current changes"
+  default_prompt: "Use $review to review the current changes with Claude."

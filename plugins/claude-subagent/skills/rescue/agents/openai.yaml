@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Rescue"
+  short_description: "Delegate Claude tasks with live Desktop viewing"
+  default_prompt: "Use $rescue to delegate this implementation task to Claude."

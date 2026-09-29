@@ -1,0 +1,29 @@
+{
+  "name": "claude-subagent",
+  "version": "0.2.0",
+  "description": "Workspace-owned Claude Code workers and read-only App Code session history controlled from Codex.",
+  "author": {
+    "name": "Liii8888",
+    "url": "https://github.com/Liii8888"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Claude Subagent",
+    "shortDescription": "Run controlled Claude Code workers from Codex",
+    "longDescription": "Delegate implementation and independent reviews to Claude Code while Codex controls concurrency, status, cancellation, model selection, effort, logs, verification, and progressive read-only access to local Claude App Code conversations.",
+    "developerName": "Liii8888",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Delegate this task to Claude with $claude-subagent:rescue",
+      "Review my current changes with $claude-subagent:review",
+      "Show Claude worker status, plan usage, reset times, or App Code conversations with $claude-subagent:status"
+    ]
+  },
+  "homepage": "https://github.com/Liii8888/codex-claude-subagent",
+  "repository": "https://github.com/Liii8888/codex-claude-subagent",
+  "license": "MIT"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Agent Result"
+  short_description: "Retrieve Claude results, sessions, and Desktop access"
+  default_prompt: "Use $result to retrieve the latest Claude agent result."

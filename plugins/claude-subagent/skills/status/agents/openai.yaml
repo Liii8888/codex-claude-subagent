@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Status, Usage & Sessions"
+  short_description: "Inspect Claude jobs, usage, resets, and App Code sessions"
+  default_prompt: "Use $status to inspect Claude jobs, usage, reset times, or local Claude App Code conversations."

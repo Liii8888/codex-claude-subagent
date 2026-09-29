@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Subagent Setup"
+  short_description: "Verify Claude auth, runtime isolation, and plugin readiness"
+  default_prompt: "Use $setup to verify the Claude subagent integration."
